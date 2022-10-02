@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <main>
+            <div class="wrapper__inners">
+                <div class="sidebar">
+                    <div class="sidebar__title">
+                        Dashboard<span>v.01</span>
+                    </div>
+                    <ul class="sidebar__list">
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link sidebar__link_1 text">Dashboard</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link sidebar__link_2 text">Product</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link sidebar__link_3 text sidebar__active">Customers</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link sidebar__link_4 text">Income</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link sidebar__link_5 text">Promote</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link sidebar__link_6 text">Help</a>
+                        </li>
+                    </ul>
+                    <div class="sidebar__manager manager-block">
+                        <div class="manager-block__inners">
+                            <div class="manager-block__image">
+                                <img src="/src/img/aside/image-manager.png" alt="Evano">
+                            </div>
+                            <div class="manager-block__info">
+                                <div class="manager-block__name">Evano</div>
+                                <div class="manager-block__profession">Project Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="content">
+                    <div class="content__name-user">Hello Evano 👋🏼,</div>
+                    <div class="content__body">
+                        <div class="content__header">
+                            <div class="content__header-info">
+                                <h2 class="content__header-title">All Customers</h2>
+                                <p class="content__header-active">Active Members</p>
+                            </div>
+                            <div class="content__header-search">
+                                <form class="content__form" action="#">
+                                    <input class="content__input" type="search" name="q" placeholder="Search">
+                                </form>
+                            </div>
+                        </div>
+                        <table class="content__table">
+                            <thead>
+                                <th>Customer Name</th>
+                                <th>Company</th>
+                                <th>Phone Number</th>
+                                <th>Email</th>
+                                <th>Country</th>
+                                <th>Status</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-label="Customer Name">Jane Cooper</td>
+                                    <td data-label="Company">Microsoft</td>
+                                    <td data-label="Phone Number">(225) 555-0118</td>
+                                    <td data-label="Email">jane@microsoft.com</td>
+                                    <td data-label="Country">United States</td>
+                                    <td data-label="Status"><button class="btn btn_active">Active</button></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Customer Name">Floyd Miles</td>
+                                    <td data-label="Company">Yahoo</td>
+                                    <td data-label="Phone Number">(205) 555-0100</td>
+                                    <td data-label="Email">floyd@yahoo.com</td>
+                                    <td data-label="Country">Kiribati</td>
+                                    <td data-label="Status"><button class="btn btn_inactive">Inactive</button></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Customer Name">Ronald Richards</td>
+                                    <td data-label="Company">Adobe</td>
+                                    <td data-label="Phone Number">(302) 555-0107</td>
+                                    <td data-label="Email">ronald@adobe.com</td>
+                                    <td data-label="Country">Israel</td>
+                                    <td data-label="Status"><button class="btn btn_inactive">Inactive</button></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Customer Name">Marvin McKinney</td>
+                                    <td data-label="Company">Tesla</td>
+                                    <td data-label="Phone Number">(252) 555-0126</td>
+                                    <td data-label="Email">marvin@tesla.com</td>
+                                    <td data-label="Country">Iran</td>
+                                    <td data-label="Status"><button class="btn btn_active">Active</button></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Customer Name">Jerome Bell</td>
+                                    <td data-label="Company">Google</td>
+                                    <td data-label="Phone Number">(629) 555-0129</td>
+                                    <td data-label="Email">jerome@google.com</td>
+                                    <td data-label="Country">Réunion</td>
+                                    <td data-label="Status"><button class="btn btn_active">Active</button></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Company">Kathryn Murphy</td>
+                                    <td data-label="Company">Microsoft</td>
+                                    <td data-label="Phone Number">(406) 555-0120</td>
+                                    <td data-label="Email">kathryn@microsoft.com</td>
+                                    <td data-label="Country">Curaçao</td>
+                                    <td data-label="Status"><button class="btn btn_active">Active</button></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Customer Name">Jacob Jones</td>
+                                    <td data-label="Company">Yahoo</td>
+                                    <td data-label="Phone Number">(208) 555-0112</td>
+                                    <td data-label="Email">jacob@yahoo.com</td>
+                                    <td data-label="Country">Brazil</td>
+                                    <td data-label="Status"><button class="btn btn_active">Active</button></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Customer Name">Kristin Watson</td>
+                                    <td data-label="Company">Facebook</td>
+                                    <td data-label="Phone Number">(704) 555-0127</td>
+                                    <td data-label="Email">kristin@facebook.com</td>
+                                    <td data-label="Country">Åland Islands</td>
+                                    <td data-label="Status"><button class="btn btn_inactive">Inactive</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="content__pagination pagination">
+                            <div class="pagination__inners">
+                                <div class="pagination__text text">Showing data 1 to 8 of 256K entries</div>
+                                <div class="pagination__page">
+                                    <ul class="pagination__list">
+                                        <li class="pagination__item">
+                                            <a class="pagination__link pagination__link-last" href="#">
+                                            </a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a class="pagination__link pagination__active" href="#">1</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a class="pagination__link" href="#">2</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a class="pagination__link" href="#">3</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a class="pagination__link" href="#">4</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a class="pagination__link" href="#">...</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a class="pagination__link" href="#">40</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a class="pagination__link pagination__link-next" href="#">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

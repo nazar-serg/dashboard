@@ -1,0 +1,36 @@
+.text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: math.div(21, 14);
+    letter-spacing: -0.01em;
+}
+
+.btn {
+    max-width: 80px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: calc(21 / 14 * 100%);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    @media (max-width: 992px) {
+        text-align: right;
+    }
+}
+
+.btn_active {
+    background: rgba(22, 192, 152, 0.38);
+    color: #008767;
+    border: 1px solid #00B087;
+}
+
+.btn_inactive {
+    color: #DF0404;
+    background: #FFC5C5;
+    border: 1px px solid #DF0404;
+}
